@@ -242,6 +242,10 @@
 	transition: all 0.3s ease;
 }
 
+.card .icon {
+	background: linear-gradient(90deg, rgba(141, 147, 161, 0.85), rgba(102, 126, 131, 0.8));
+}
+
 .card:hover {
 	height: 300px;
 }
@@ -259,15 +263,19 @@
 .card:hover .icon {
 	background-position: -120px;
 	transition: all 0.3s ease;
+	background: linear-gradient(90deg, rgba(105, 124, 165, 0.85), rgba(20, 116, 133, 0.8));
+	-webkit-text-fill-color: transparent;
+	opacity: 1;
+	transition: all 0.3s ease;
 }
 
-.card:hover .icon i {
+/* .card:hover .icon i {
 	background: linear-gradient(90deg, #ff7e7e, #ff4848);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	opacity: 1;
 	transition: all 0.3s ease;
-}
+} */
 
 /* Menu Elements */
 .menu-card {
